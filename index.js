@@ -6,9 +6,7 @@ const UserRoute = require('./routes/auth.route');
 const ConsumerRoute = require('./routes/consumer.route');
 const FitnessGoal = require('./routes/fitnessGoal.route');
 const Activity = require('./routes/activity.route');
-app.use(cors({
-    origin: 'https://fittrackr-github.vercel.app/',
-}));
+app.use(cors());
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }));
 app.use('/auth',UserRoute);
