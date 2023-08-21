@@ -1,7 +1,7 @@
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
 const User = require('../models/user.model');
-const { generateToken } = require('../helpers/auth.helpers'); // Create a separate helper file for token generation.
+const { generateToken } = require('../middleware/auth'); // Create a separate helper file for token generation.
 
 // Sign-in with Google and JWT
 exports.signInWithGoogle = async (req, res) => {
