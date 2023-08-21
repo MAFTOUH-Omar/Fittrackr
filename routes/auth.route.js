@@ -5,7 +5,7 @@ const {signInWithGoogle,signUpWithJWT,signInWithJWT,} = require('../controllers/
 
 // Route for Google OAuth authentication
 
-// router.get('/auth/google', googleAuthMiddleware, redirectToDashboard);
+router.get('/auth/google', googleAuthMiddleware, redirectToDashboard);
 
 // Route for signing in with Google
 router.post('/auth/google/signin', signInWithGoogle);
