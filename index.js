@@ -15,6 +15,7 @@ app.use('/auth',UserRoute);
 app.use('/consumer',ConsumerRoute);
 app.use('/fitness-goal',FitnessGoal);
 app.use('/activity',Activity);
+app.use('/workout',Workout);
 app.use('/body-measurement',BodyMeasurement);
 db.connect();
 app.listen(process.env.APP_PORT);
