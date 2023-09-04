@@ -1,0 +1,7 @@
+.navbar-toggler{
+    background-color: whitesmoke;
+}
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Archivo+Black&family=Kanit:wght@300&family=Rajdhani:wght@500&family=Source+Code+Pro:wght@300&family=Ubuntu&display=swap');
+*{
+    font-family: 'Rajdhani', sans-serif;
+}
